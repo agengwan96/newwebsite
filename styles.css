@@ -19,7 +19,7 @@ nav {
 header{
     background-color: #eadcff;
     padding: 24px;
-    height: calc(100vh - 70px);
+    height: calc(100vh-70px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,6 +60,7 @@ a{
     color: #000;
     font-size: 20px;
     font-weight: 700;
+    text-decoration: none;
 }
 ul{
         display: flex;
@@ -138,6 +139,7 @@ form{
     flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 24px;
 }
 
 input, textarea{
@@ -170,3 +172,67 @@ footer{
     padding: 0 16px;
 }
 
+/* Smartphones, tablets */
+@media (max-width: 728px){
+    .row{
+        flex-direction: column;
+    }
+
+    .home_description{
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home_description-button{
+        max-width: 240px;
+        }
+
+    h1{
+        text-align: center;
+        text-shadow: 60px;
+    }
+
+    .subheader{
+        text-align: center;
+        text-shadow: 28px;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .section_content{
+        flex-direction: column;
+    }
+
+    .section_content-wrapper{
+       width: 100%;
+    }
+
+    .section_img-wrapper{
+        width: 100%;
+    }
+
+    #discord .section_content{
+        flex-direction: column-reverse;
+    }
+
+    footer{
+        padding: 48px 24px;
+    }
+
+    .footer_logo{
+        max-width: 360px;
+    }
+
+    .footer_link{
+        padding: 0 4px;
+        text-shadow: 17px;
+    }
+
+    .footer_links{
+        margin-bottom: 24px;
+    }
+}
