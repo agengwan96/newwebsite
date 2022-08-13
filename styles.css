@@ -69,12 +69,15 @@ li{
     padding-left: 16px;
 }
 
+#about, #discord, #contact{
+    padding: 40px 0;
+}
+
 /*
     ABOUt
 */
 
 #about{
-    padding: 40px 0;
     background-color: #f8ffdc;
 }
 
@@ -84,30 +87,38 @@ h2{
     margin-bottom: 24px;
 }
 
-.about_content{
+.section_content{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.about_content-wrapper{
+.section_content-wrapper{
     width: 60%;
 }
 
-.about_content-para{
+.section_content-para{
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
 }
 
-.about_content-wrapper, .about_img-wrapper{
+.section_content-wrapper, .section_img-wrapper{
     padding: 0 24px;
 }
 
-.about_img-wrapper{
-    width:40%;
+.section_img-wrapper{
+    width: 40%;
 }
 
 img{
-    width:100%;
+    width: 100%;
+}
+
+/*
+    DISCORD
+*/
+
+#discord{
+    background-origin: #cefeff;
 }
